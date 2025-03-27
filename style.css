@@ -1,0 +1,72 @@
+/* BASIC PAGE STYLING */
+body {
+    background-color: #f8dada; /* Light muted pink background */
+    font-family: Arial, sans-serif; /* Simple, clean font */
+    color: #333; /* Dark gray text for readability */
+    padding: 20px; /* Adds space around content */
+}
+
+/* PAGE HEADER */
+h1 {
+    text-align: center; /* Center the main title */
+    color: maroon; /* Maroon color for a bold heading */
+}
+
+/*  NAVIGATION BAR */
+nav {
+    text-align: center; /* Center the nav links */
+    margin-bottom: 20px; /* Add space below nav */
+}
+
+nav a {
+    color: maroon; /* Maroon text color for links */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 10px; /* Space between each link */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
+
+/* FORM SECTION */
+form {
+    background-color: #fff176; /* Light yellow background for the form box */
+    padding: 15px; /* Space inside the form box */
+    max-width: 400px; /* Limits width for readability */
+    margin: 0 auto 30px auto; /* Centers form, adds space below */
+    border-radius: 8px; /* Rounds the corners of the box */
+}
+
+/* Labels for form inputs */
+form label {
+    font-weight: bold; /* Makes labels stand out */
+    display: block; /* Puts label on its own line */
+    margin-top: 10px; /* Adds space above each label */
+}
+
+/* Input fields */
+form input {
+    width: 100%; /* Full width inside form */
+    padding: 6px; /* Inner space in input field */
+    margin-top: 5px; /* Space between label and input */
+    box-sizing: border-box; /* Includes padding in total width */
+}
+
+/* Submit button styling */
+form button {
+    margin-top: 15px; /* Space above button */
+    background-color: maroon; /* Button background */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    padding: 8px 12px; /* Size of button */
+    cursor: pointer; /* Shows pointer on hover */
+}
+
+/* DESCRIPTION TEXT BELOW FORM */
+div > p {
+    max-width: 600px; /* Keeps the paragraph easy to read */
+    margin: 0 auto; /* Centers the paragraph */
+    padding: 15px; /* Space inside paragraph box */
+    background-color: white; /* White background for contrast */
+    border-radius: 8px; /* Rounded corners */
+}
