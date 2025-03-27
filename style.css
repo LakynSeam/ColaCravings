@@ -1,73 +1,90 @@
-/* BASIC PAGE STYLING */
+/* ======= BASIC PAGE STYLING ======= */
 body {
-    background-color: #f8dada; /* Light muted pink background */
-    font-family: Arial, sans-serif; /* Simple, clean font */
-    color: #333; /* Dark gray text for readability */
-    padding: 20px; /* Adds space around content */
+    background-color: #f8dada; /* Muted pink background */
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
 }
 
-/* PAGE HEADER */
+/* ======= PAGE HEADER ======= */
 h1 {
-    text-align: center; /* Center the main title */
-    color: #a85c5c; /* Heading color */
+    text-align: center;
+    color: #a85c5c; /* pastel red */
 }
 
-/*  NAVIGATION BAR */
+/*  NAVIGATION BAR WRAPPER  */
+.nav-container {
+    background-color: #f0f0f0; /* Light gray (neutral) box around nav */
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: subtle shadow */
+}
+
+/* NAVIGATION BAR LINKS */
 nav {
-    text-align: center; /* Center the nav links */
-    margin-bottom: 20px; /* Add space below nav */
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
 }
 
 nav a {
-    color: maroon; /* Maroon text color for links */
-    justify-content: center;
+    color: #a85c5c; /* Pastel red */
     text-decoration: none;
-    margin: 0 10px; /* Space between each link */
+    font-weight: bold;
 }
 
 nav a:hover {
-    text-decoration: underline; /* Underline link on hover */
+    text-decoration: underline;
 }
 
-/* FORM SECTION */
+/* ======= FORM SECTION ======= */
 form {
-    background-color: #fff176; /* Light yellow background for the form box */
-    padding: 15px; /* Space inside the form box */
-    max-width: 400px; /* Limits width for readability */
-    margin: 0 auto 30px auto; /* Centers form, adds space below */
-    border-radius: 8px; /* Rounds the corners of the box */
+    background-color: #fff9c4; /* pastel yellow */
+    padding: 15px;
+    max-width: 400px;
+    margin: 0 auto 30px auto;
+    border-radius: 8px;
 }
 
-/* Labels for form inputs */
+/* Labels */
 form label {
-    font-weight: bold; /* Makes labels stand out */
-    display: block; /* Puts label on its own line */
-    margin-top: 10px; /* Adds space above each label */
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
 }
 
-/* Input fields */
+/* Inputs */
 form input {
-    width: 100%; /* Full width inside form */
-    padding: 6px; /* Inner space in input field */
-    margin-top: 5px; /* Space between label and input */
-    box-sizing: border-box; /* Includes padding in total width */
+    width: 100%;
+    padding: 6px;
+    margin-top: 5px;
+    box-sizing: border-box;
 }
 
-/* Submit button styling */
+/* Submit Button */
 form button {
-    margin-top: 15px; /* Space above button */
-    background-color: maroon; /* Button background */
-    color: white; /* Button text color */
-    border: none; /* Remove default border */
-    padding: 8px 12px; /* Size of button */
-    cursor: pointer; /* Shows pointer on hover */
+    margin-top: 15px;
+    background-color: #f28b82; /* Soft pastel red */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-/* DESCRIPTION TEXT BELOW FORM */
-div > p {
-    max-width: 600px; /* Keeps the paragraph easy to read */
-    margin: 0 auto; /* Centers the paragraph */
-    padding: 15px; /* Space inside paragraph box */
-    background-color: white; /* White background for contrast */
-    border-radius: 8px; /* Rounded corners */
+form button:hover {
+    background-color: #e57373;
 }
+
+/* ======= DESCRIPTION SECTION ======= */
+div > p {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    line-height: 1.6;
+}
+
