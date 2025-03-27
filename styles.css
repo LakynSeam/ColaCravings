@@ -1,0 +1,80 @@
+/* ======= GENERAL PAGE STYLING ======= */
+body {
+    background-color: #f8dada; /* Muted pink background for overall theme */
+    font-family: Arial, sans-serif; /* Clean, readable font */
+    color: #333; /* Dark gray text color for readability */
+    padding: 20px;
+    margin: 0;
+}
+
+/* ======= PAGE HEADERS ======= */
+h1, h2 {
+    text-align: center; /* Center main headings */
+    color: #a85c5c; /* Soft pastel red color */
+    margin-bottom: 20px;
+}
+
+/* ======= NAVIGATION BAR CONTAINER ======= */
+.nav-container {
+    background-color: #f0f0f0; /* Light gray box around nav for contrast */
+    padding: 15px;
+    border-radius: 10px; /* Rounded corners */
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* ======= NAVIGATION LINKS ======= */
+.nav-container a {
+    color: #a85c5c; /* Matching pastel red for nav links */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold; /* Bold for emphasis */
+    margin: 0 10px; /* Space between links */
+}
+
+.nav-container a:hover {
+    text-decoration: underline; /* Underline on hover for interaction feedback */
+}
+
+/* ======= RESTAURANT CARDS FLEX CONTAINER ======= */
+.restaurant-container {
+    display: flex; /* Enables horizontal layout */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    justify-content: center; /* Center cards horizontally */
+    gap: 20px; /* Space between cards */
+    margin-top: 30px;
+}
+
+/* ======= INDIVIDUAL RESTAURANT CARD ======= */
+.restaurant-card {
+    background-color: #fff9c4; /* Soft pastel yellow background for cards */
+    padding: 15px;
+    border-radius: 10px; /* Rounded card corners */
+    max-width: 250px; /* Limits width for better layout */
+    width: 100%; /* Full width on small screens */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    flex: 1 1 200px; /* Responsive flex behavior */
+}
+
+/* ======= RESTAURANT IMAGES ======= */
+.restaurant-card img {
+    border-radius: 10px; /* Rounded corners on images */
+    width: 100%; /* Full width inside card */
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+/* ======= MENU BUTTON STYLING ======= */
+.restaurant-card button {
+    background-color: #f28b82; /* Pastel red for buttons */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.restaurant-card button:hover {
+    background-color: #e57373; /* Slightly darker on hover */
+}
