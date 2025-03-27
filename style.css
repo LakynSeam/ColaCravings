@@ -1,0 +1,135 @@
+
+/* ======= GLOBAL PAGE STYLING ======= */
+body {
+    background-color: #f8dada; /* Muted pastel pink background for warmth and friendliness */
+    font-family: Arial, sans-serif; /* Simple and readable font for body text */
+    color: #333; /* Dark gray for good contrast and accessibility */
+    padding: 20px;
+    margin: 0;
+}
+
+/* ======= PAGE HEADERS (h1, h2, h3) ======= */
+h1, h2, h3 {
+    text-align: center;           /* Center-aligns all major headings */
+    color: #a85c5c;               /* Soft pastel red used across the site for a cohesive look */
+    margin-bottom: 20px;
+}
+
+.nav-container {
+    background-color: #f0f0f0; /* Light gray background to contrast the pink page */
+    padding: 15px;             /* Adds space around nav links */
+    border-radius: 10px;       /* Soft rounded edges for a modern look */
+    margin-bottom: 30px;
+    text-align: center;        /* Center the links inside the container */
+}
+
+.nav-container a {
+    color: #a85c5c;           /* Pastel red links to match headings */
+    text-decoration: none;    /* Removes default underline from links */
+    font-weight: bold;        /* Makes links stand out */
+    margin: 0 10px;           /* Space between links */
+}
+
+.nav-container a:hover {
+    text-decoration: underline; /* Shows underline on hover for clarity */
+}
+
+form {
+    background-color: #fff9c4;  /* Soft pastel yellow box for a friendly, inviting form */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;           /* Keeps form a reasonable width for readability */
+    margin: 0 auto 40px auto;   /* Centered on the page with spacing at the bottom */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+form label {
+    font-weight: bold;    /* Emphasizes form labels */
+    display: block;       /* Ensures labels are on their own line */
+    margin-top: 15px;
+}
+
+form input {
+    width: 100%;          /* Input fills the form width */
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Keeps padding inside the width */
+}
+
+form button {
+    margin-top: 20px;
+    background-color: #f28b82; /* Pastel red for the submit button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e57373; /* Slightly darker red on hover for feedback */
+}
+
+
+/* Flex container for laying out restaurant cards */
+.restaurant-container {
+    display: flex;            /* Enables horizontal layout */
+    flex-wrap: wrap;          /* Allows wrapping on small screens */
+    justify-content: center;  /* Center all cards horizontally */
+    gap: 20px;                /* Space between each card */
+    margin-top: 30px;
+}
+
+/* Individual card for each restaurant */
+.restaurant-card {
+    background-color: #fff9c4;  /* Pastel yellow matches form styling */
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 250px;           /* Restricts size for layout balance */
+    width: 100%;                /* Responsive on smaller screens */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 200px;            /* Responsive flex behavior */
+}
+
+/* Image inside restaurant card */
+.restaurant-card img {
+    border-radius: 10px;
+    width: 100%;              /* Makes image fill container width */
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+/* Button inside restaurant card */
+.restaurant-card button {
+    background-color: #f28b82; /* Matches other buttons across site */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.restaurant-card button:hover {
+    background-color: #e57373;
+}
+
+
+/* Review container box */
+.review {
+    background-color: white; /* White background for clear text */
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto 20px auto; /* Centered and spaced out */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Review text formatting */
+.review p {
+    margin: 5px 0; /* Small spacing between each paragraph */
+}
