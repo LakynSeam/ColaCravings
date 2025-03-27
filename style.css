@@ -9,7 +9,7 @@ body {
 /* PAGE HEADER */
 h1 {
     text-align: center; /* Center the main title */
-    color: maroon; /* Maroon color for a bold heading */
+    color: #a85c5c; /* Heading color */
 }
 
 /*  NAVIGATION BAR */
@@ -20,7 +20,8 @@ nav {
 
 nav a {
     color: maroon; /* Maroon text color for links */
-    text-decoration: none; /* Remove underline from links */
+    justify-content: center;
+    text-decoration: none;
     margin: 0 10px; /* Space between each link */
 }
 
