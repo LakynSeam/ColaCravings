@@ -16,7 +16,7 @@ h1, h2, h3 {
 
 /* ======= NAVIGATION STYLING ======= */
 .nav-container {
-    background-color: #883636; /* Light gray background for nav */
+    background-color: #4a4435; /* Light gray background for nav */
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -36,7 +36,7 @@ h1, h2, h3 {
 
 /* ======= FORM STYLING ======= */
 form {
-    background-color: #fff176; /* Soft pastel yellow form background */
+    background-color: #d9e089; /* Soft pastel yellow form background */
     padding: 20px;
     border-radius: 10px;
     max-width: 500px;
