@@ -1,8 +1,8 @@
 /* ======= GLOBAL PAGE STYLING ======= */
 body {
-    background-color: #AA5251; /* Muted pastel pink background for warmth and friendliness */
-    font-family: Arial, sans-serif; /* Simple and readable font for body text */
-    color: #333; /* Dark gray for good contrast and accessibility */
+    background-color: #f4c2c2; /* Accessible pastel pink */
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark grey for body text */
     padding: 20px;
     margin: 0;
 }
@@ -10,13 +10,13 @@ body {
 /* ======= PAGE HEADERS (h1, h2, h3) ======= */
 h1, h2, h3 {
     text-align: center;
-    color: #883636; /* Soft pastel red used across the site for a cohesive look */
+    color: #883636; /* Accessible deeper pastel red */
     margin-bottom: 20px;
 }
 
 /* ======= NAVIGATION STYLING ======= */
 .nav-container {
-    background-color: #4a4435; /* Light gray background for nav */
+    background-color: #f0f0f0;
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -24,7 +24,7 @@ h1, h2, h3 {
 }
 
 .nav-container a {
-    color: #a85c5c; /* Pastel red links */
+    color: #883636; /* Deeper pastel red */
     text-decoration: none;
     font-weight: bold;
     margin: 0 10px;
@@ -36,7 +36,7 @@ h1, h2, h3 {
 
 /* ======= FORM STYLING ======= */
 form {
-    background-color: #50CEB6; /* Soft pastel yellow form background */
+    background-color: #fff176; /* Accessible pastel yellow */
     padding: 20px;
     border-radius: 10px;
     max-width: 500px;
@@ -61,7 +61,7 @@ form input {
 
 form button {
     margin-top: 20px;
-    background-color: #07726E;
+    background-color: #e57373; /* Coral button */
     color: white;
     border: none;
     padding: 10px 15px;
@@ -71,7 +71,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #e57373;
+    background-color: #d32f2f; /* Deeper red hover */
 }
 
 /* ======= RESTAURANT CARD LAYOUT ======= */
@@ -84,7 +84,7 @@ form button:hover {
 }
 
 .restaurant-card {
-    background-color: #50CEB6;
+    background-color: #fff9c4; /* Light pastel card background */
     padding: 15px;
     border-radius: 10px;
     max-width: 250px;
@@ -99,10 +99,11 @@ form button:hover {
     width: 100%;
     max-width: 200px;
     margin-bottom: 10px;
+    object-fit: cover;
 }
 
-.restaurant-card button {
-    background-color: #07726E;
+.restaurant-card a button {
+    background-color: #e57373;
     color: white;
     border: none;
     padding: 8px 12px;
@@ -111,8 +112,8 @@ form button:hover {
     font-weight: bold;
 }
 
-.restaurant-card button:hover {
-    background-color: #07726E;
+.restaurant-card a button:hover {
+    background-color: #d32f2f;
 }
 
 /* ======= CRAVINGS PAGE (Category Sections) ======= */
@@ -129,15 +130,18 @@ form button:hover {
     height: auto;
 }
 
-.category ul {
-    display: inline-block;
-    text-align: left;
-    margin-top: 10px;
+/* ======= INTRO PARAGRAPH ======= */
+.intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    font-size: 1.1em;
+    color: #444;
 }
 
 /* ======= REVIEW BOX (Contact Page) ======= */
 .review {
-    background-color: white;
+    background-color: #fff;
     padding: 15px;
     border-radius: 10px;
     max-width: 600px;
@@ -157,21 +161,5 @@ footer {
     color: #777;
 }
 
-.category img {
-  width: 400px;
-  height: 250px;
-  object-fit: cover;
-  border-radius: 10px;
-  display: block;
-  margin: 0 auto 15px;
-}
-
-.intro {
-  text-align: center;
-  max-width: 700px;
-  margin: 0 auto 30px auto;
-  font-size: 1.1em;
-  color: #444;
-}
 
 
