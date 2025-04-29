@@ -1,6 +1,6 @@
 /* ======= GLOBAL PAGE STYLING ======= */
 body {
-    background-color: #f8dada; /* Muted pastel pink background for warmth and friendliness */
+    background-color: #f4c2c2; /* Muted pastel pink background for warmth and friendliness */
     font-family: Arial, sans-serif; /* Simple and readable font for body text */
     color: #333; /* Dark gray for good contrast and accessibility */
     padding: 20px;
@@ -10,13 +10,13 @@ body {
 /* ======= PAGE HEADERS (h1, h2, h3) ======= */
 h1, h2, h3 {
     text-align: center;
-    color: #a85c5c; /* Soft pastel red used across the site for a cohesive look */
+    color: #883636; /* Soft pastel red used across the site for a cohesive look */
     margin-bottom: 20px;
 }
 
 /* ======= NAVIGATION STYLING ======= */
 .nav-container {
-    background-color: #f0f0f0; /* Light gray background for nav */
+    background-color: #883636; /* Light gray background for nav */
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -36,7 +36,7 @@ h1, h2, h3 {
 
 /* ======= FORM STYLING ======= */
 form {
-    background-color: #fff9c4; /* Soft pastel yellow form background */
+    background-color: #fff176; /* Soft pastel yellow form background */
     padding: 20px;
     border-radius: 10px;
     max-width: 500px;
@@ -102,7 +102,7 @@ form button:hover {
 }
 
 .restaurant-card button {
-    background-color: #f28b82;
+    background-color: #fff176;
     color: white;
     border: none;
     padding: 8px 12px;
