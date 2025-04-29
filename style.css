@@ -157,3 +157,13 @@ footer {
     color: #777;
 }
 
+.category img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 15px;
+}
+
+
