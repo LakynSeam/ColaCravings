@@ -1,6 +1,6 @@
 /* ======= GLOBAL PAGE STYLING ======= */
 body {
-    background-color: #f4c2c2; /* Muted pastel pink background for warmth and friendliness */
+    background-color: #AA5251; /* Muted pastel pink background for warmth and friendliness */
     font-family: Arial, sans-serif; /* Simple and readable font for body text */
     color: #333; /* Dark gray for good contrast and accessibility */
     padding: 20px;
@@ -84,7 +84,7 @@ form button:hover {
 }
 
 .restaurant-card {
-    background-color: #fff9c4;
+    background-color: #07726E;
     padding: 15px;
     border-radius: 10px;
     max-width: 250px;
@@ -102,7 +102,7 @@ form button:hover {
 }
 
 .restaurant-card button {
-    background-color: #fff176;
+    background-color: #07726E;
     color: white;
     border: none;
     padding: 8px 12px;
@@ -112,7 +112,7 @@ form button:hover {
 }
 
 .restaurant-card button:hover {
-    background-color: #e57373;
+    background-color: #07726E;
 }
 
 /* ======= CRAVINGS PAGE (Category Sections) ======= */
