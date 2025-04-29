@@ -36,7 +36,7 @@ h1, h2, h3 {
 
 /* ======= FORM STYLING ======= */
 form {
-    background-color: #d9e089; /* Soft pastel yellow form background */
+    background-color: #50CEB6; /* Soft pastel yellow form background */
     padding: 20px;
     border-radius: 10px;
     max-width: 500px;
@@ -61,7 +61,7 @@ form input {
 
 form button {
     margin-top: 20px;
-    background-color: #f28b82;
+    background-color: #07726E;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -84,7 +84,7 @@ form button:hover {
 }
 
 .restaurant-card {
-    background-color: #07726E;
+    background-color: #50CEB6;
     padding: 15px;
     border-radius: 10px;
     max-width: 250px;
